@@ -52,7 +52,7 @@
                     <a class="dropdown-item {{ Route::is('admin.posts.index') ? 'active' : '' }}" href=" {{ route('admin.posts.index') }}">Posts</a>
                     <a class="dropdown-item {{ Route::is('admin.volunteers.index') ? 'active' : '' }}" href=" {{ route('admin.volunteers.index') }}">Voluntarios</a>
                     <a class="dropdown-item {{ Route::is('admin.comments.index') ? 'active' : '' }}" href=" {{ route('admin.comments.index') }}">Comentarios</a>
-                    <a class="dropdown-item {{ Route::is('admin.categories.index') ? 'active' : '' }}" href=" {{ route('admin.categories.index') }}">Categorías</a>
+                    <!-- <a class="dropdown-item {{ Route::is('admin.categories.index') ? 'active' : '' }}" href=" {{ route('admin.categories.index') }}">Categorías</a> -->
                     <a class="dropdown-item {{ Route::is('admin.subscribers.index') ? 'active' : '' }}" href=" {{ route('admin.subscribers.index') }}">Suscriptores</a>
                     <a class="dropdown-item {{ Route::is('admin.donations.index') ? 'active' : '' }}" href=" {{ route('admin.donations.index') }}">Donaciones</a>
                 </div>
